@@ -16,6 +16,7 @@ import net.tornado.extinctionmod.item.ModItemGroup;
 public class BlockInit {
 
     public static final Block FOSSIL_BLOCK = registerBlock( "fossil_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
+    public static final Block MACHINE_BLOCK = registerBlock( "machine_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
