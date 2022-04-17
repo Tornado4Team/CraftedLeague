@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "extinctionmod:block/fossil_deepslate_block"
+  }
+}

@@ -1,6 +1,5 @@
 package net.tornado.extinctionmod.block;
 
-import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -15,8 +14,16 @@ import net.tornado.extinctionmod.item.ModItemGroup;
 
 public class BlockInit {
 
+    //public static final Block MACHINE_BLOCK = registerBlock("machine_block", new MachineBlock(FabricBlockSettings.of(Material.METAL)),ModItemGroup.EXTINCTION);
+
     public static final Block FOSSIL_BLOCK = registerBlock( "fossil_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
-    public static final Block MACHINE_BLOCK = registerBlock( "machine_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
+    public static final Block FOSSIL_DEEPSLATE_BLOCK = registerBlock( "fossil_deepslate_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
+    //public static final Block BOX_BLOCK = registerBlock( "box_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
+    //public static final Block MACHINE_BLOCK = registerBlock( "machine_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
+
+
+
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

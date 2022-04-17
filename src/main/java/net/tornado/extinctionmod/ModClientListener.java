@@ -1,11 +1,11 @@
 package net.tornado.extinctionmod;
 
-
 import io.netty.buffer.Unpooled;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
 import net.fabricmc.fabric.api.network.PacketContext;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.client.MinecraftClient;
@@ -19,16 +19,24 @@ import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.registry.Registry;
 import net.tornado.extinctionmod.client.renderer.entity.Dodo_Entity_Renderer;
 import net.tornado.extinctionmod.registry.EntityInit;
+import net.tornado.extinctionmod.screen.BoxScreen;
 
 import java.util.UUID;
 
 @SuppressWarnings("deprecation")
+@Environment(EnvType.CLIENT)
 public class ModClientListener implements ClientModInitializer {
 
     @SuppressWarnings({ "unchecked" })
     @Override
     public void onInitializeClient() {
+
+            ScreenRegistry.register(ExtinctionMod.BOX_SCREEN_HANDLER, BoxScreen::new);
+
+
             EntityRendererRegistry.register(EntityInit.DODO_ENTITY, Dodo_Entity_Renderer::new);
+
+
 
     }
 

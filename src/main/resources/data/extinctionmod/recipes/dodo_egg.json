@@ -1,0 +1,14 @@
+{
+  "type": "extinctionmod:lightning",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "extinctionmod:pick"
+    }
+  ],
+  "output": {
+    "item": "extinctionmod:dodo_spawn_egg"
+  }
+}
