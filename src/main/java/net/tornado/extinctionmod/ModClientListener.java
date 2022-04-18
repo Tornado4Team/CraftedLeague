@@ -18,6 +18,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.registry.Registry;
 import net.tornado.extinctionmod.client.renderer.entity.Dodo_Entity_Renderer;
+import net.tornado.extinctionmod.client.renderer.entity.Kelenken_Entity_Renderer;
 import net.tornado.extinctionmod.registry.EntityInit;
 import net.tornado.extinctionmod.screen.BoxScreen;
 
@@ -35,6 +36,7 @@ public class ModClientListener implements ClientModInitializer {
 
 
             EntityRendererRegistry.register(EntityInit.DODO_ENTITY, Dodo_Entity_Renderer::new);
+            EntityRendererRegistry.register(EntityInit.KELENKEN_ENTITY, Kelenken_Entity_Renderer::new);
 
 
 

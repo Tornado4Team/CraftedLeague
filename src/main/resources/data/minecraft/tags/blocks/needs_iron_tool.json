@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "extinctionmod:fossil_cenozoic_block",
+    "extinctionmod:fossil_mesozoic_block",
+    "extinctionmod:fossil_paleozoic_block"
+  ]
+}

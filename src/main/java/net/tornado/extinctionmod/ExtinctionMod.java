@@ -29,6 +29,7 @@ import org.slf4j.LoggerFactory;
 import software.bernie.geckolib3.GeckoLib;
 
 import static net.tornado.extinctionmod.item.ItemInit.DODO_SPAWN_EGG;
+import static net.tornado.extinctionmod.item.ItemInit.KELENKEN_SPAWN_EGG;
 
 
 public class ExtinctionMod implements ModInitializer {
@@ -62,10 +63,12 @@ public class ExtinctionMod implements ModInitializer {
 
 
 		Registry.register(Registry.ITEM, new Identifier(ExtinctionMod.ModID, "dodo_spawn_egg"), DODO_SPAWN_EGG);
+		Registry.register(Registry.ITEM, new Identifier(ExtinctionMod.ModID, "kelenken_spawn_egg"), KELENKEN_SPAWN_EGG);
 
 		GeckoLib.initialize();
 		new EntityInit();
 		FabricDefaultAttributeRegistry.register(EntityInit.DODO_ENTITY, EntityUtils.createMobAttributes(0.25D, 4.0D));
+		FabricDefaultAttributeRegistry.register(EntityInit.KELENKEN_ENTITY, EntityUtils.createMobAttributes(0.28D, 8.0D));
 		LOGGER.info("Hello Fabric world!");
 	}
 

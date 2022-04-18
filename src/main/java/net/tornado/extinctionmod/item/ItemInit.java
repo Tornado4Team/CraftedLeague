@@ -10,8 +10,11 @@ import net.tornado.extinctionmod.registry.EntityInit;
 
 public class ItemInit {
     public static final Item PICK = registerItem("pick", new Item(new FabricItemSettings().group(ModItemGroup.EXTINCTION)));
+    public static final Item FOSSIL_CLEAN = registerItem("fossil_clean", new Item(new FabricItemSettings().group(ModItemGroup.EXTINCTION)));
+    public static final Item FOSSIL_DIRTY = registerItem("fossil_dirty", new Item(new FabricItemSettings().group(ModItemGroup.EXTINCTION)));
 
     public static final Item DODO_SPAWN_EGG = new SpawnEggItem(EntityInit.DODO_ENTITY, 12895428, 11382189, new Item.Settings().group(ModItemGroup.EXTINCTION));
+    public static final Item KELENKEN_SPAWN_EGG = new SpawnEggItem(EntityInit.KELENKEN_ENTITY, 12895428, 11382189, new Item.Settings().group(ModItemGroup.EXTINCTION));
 
 
     private static Item registerItem(String name, Item item){

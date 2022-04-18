@@ -8,5 +8,5 @@ import net.tornado.extinctionmod.ExtinctionMod;
 
 public class ModItemGroup {
     public static final ItemGroup EXTINCTION = FabricItemGroupBuilder.build(new Identifier(ExtinctionMod.ModID, "extinction"),
-            ()-> new ItemStack(ItemInit.PICK));
+            ()-> new ItemStack(ItemInit.FOSSIL_CLEAN));
 }

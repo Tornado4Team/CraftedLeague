@@ -16,8 +16,9 @@ public class BlockInit {
 
     //public static final Block MACHINE_BLOCK = registerBlock("machine_block", new MachineBlock(FabricBlockSettings.of(Material.METAL)),ModItemGroup.EXTINCTION);
 
-    public static final Block FOSSIL_BLOCK = registerBlock( "fossil_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
-    public static final Block FOSSIL_DEEPSLATE_BLOCK = registerBlock( "fossil_deepslate_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
+    public static final Block FOSSIL_CENOZOIC_BLOCK = registerBlock( "fossil_cenozoic_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
+    public static final Block FOSSIL_MESOZOIC_BLOCK = registerBlock( "fossil_mesozoic_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
+    public static final Block FOSSIL_PALEOZOIC_BLOCK = registerBlock( "fossil_paleozoic_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
     //public static final Block BOX_BLOCK = registerBlock( "box_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
     //public static final Block MACHINE_BLOCK = registerBlock( "machine_block", new Block(FabricBlockSettings.of(Material.STONE).strength(6f).requiresTool()), ModItemGroup.EXTINCTION);
 

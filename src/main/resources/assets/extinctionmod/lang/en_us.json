@@ -2,13 +2,18 @@
   "itemGroup.extinctionmod.extinction": "De-Extinction Mod",
 
   "item.extinctionmod.pick": "Fossil Pick",
+  "item.extinctionmod.fossil_dirty": "Dirty Fossils",
+  "item.extinctionmod.fossil_clean": "Cleaned Fossils",
 
   "item.extinctionmod.dodo_spawn_egg": "Dodo Spawn Egg",
+  "item.extinctionmod.kelenken_spawn_egg": "Kelenken Spawn Egg",
 
-  "block.extinctionmod.fossil_block": "Fossil Block",
-  "block.extinctionmod.fossil_deepslate_block": "Deepslate Fossil Block",
+  "block.extinctionmod.fossil_mesozoic_block": "Mesozoic Fossil Block",
+  "block.extinctionmod.fossil_paleozoic_block": "Paleozoic Fossil Block",
+  "block.extinctionmod.fossil_cenozoic_block": "Cenozoic Fossil Block",
   "block.extinctionmod.machine_block": "Machine Block",
   "block.extinctionmod.box_block": "Box Block",
 
-  "entity.extinctionmod.dodo_entity": "Dodo"
+  "entity.extinctionmod.dodo_entity": "Dodo",
+  "entity.extinctionmod.kelenken_entity": "Kelenken"
 }
