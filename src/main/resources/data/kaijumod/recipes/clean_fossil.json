@@ -1,0 +1,14 @@
+{
+  "type": "extinctionmod:lightning",
+  "ingredients": [
+    {
+      "item": "extinctionmod:fossil_dirty"
+    },
+    {
+      "item": "extinctionmod:brush"
+    }
+  ],
+  "output": {
+    "item": "extinctionmod:fossil_clean"
+  }
+}

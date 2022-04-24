@@ -1,0 +1,17 @@
+{
+  "itemGroup.kaijumod.kaiju": "Monsters Below Mod - Kaiju",
+  "itemGroup.kaijumod.jaeger": "Monsters Below Mod - Jaeger",
+
+  "item.kaijumod.pick": "Fossil Pick",
+  "item.kaijumod.brush": "Brush",
+  "item.kaijumod.fossil_dirty": "Dirty Fossils",
+  "item.kaijumod.fossil_clean": "Cleaned Fossils",
+
+  "item.kaijumod.dodo_spawn_egg": "Dodo Spawn Egg",
+
+  "block.kaijumod.fossil_cenozoic_block": "Cenozoic Fossil Block",
+  "block.kaijumod.machine_block": "Machine Block",
+  "block.kaijumod.box_block": "Box Block",
+
+  "entity.kaijumod.dodo_entity": "Dodo"
+}
